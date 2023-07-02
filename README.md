@@ -1,1 +1,1 @@
-# .github
+# SigmaEpsilon
