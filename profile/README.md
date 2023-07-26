@@ -9,7 +9,7 @@ The namespace consists of the following packages:
 - [**sigmaepsilon.core**](https://github.com/sigma-epsilon/sigmaepsilon.core) - Common developer utilities for all projects.
 - [**sigmaepsilon.math**](https://github.com/sigma-epsilon/sigmaepsilon.math) - Mathematical solutions to all kinds of problems, mainly centered around linear algebra and optimization.
 - [**sigmaepsilon.mesh**](https://github.com/sigma-epsilon/sigmaepsilon.mesh) - A module to handle polygonal meshes and visualization.
-- **sigmaepsilon.solid** [in progress]- For numerical simulations in the field of computational solid mechanics.
+- [**sigmaepsilon.solid**](https://github.com/sigma-epsilon/sigmaepsilon.solid)- For numerical simulations in the field of computational solid mechanics.
 
 Each of these packages comes with their own documentation, where you can find all information on installation, usage, etc.
 
