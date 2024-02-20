@@ -8,8 +8,11 @@ The namespace consists of the following packages:
 
 - [**sigmaepsilon.core**](https://github.com/sigma-epsilon/sigmaepsilon.core) - Common developer utilities for all projects.
 - [**sigmaepsilon.math**](https://github.com/sigma-epsilon/sigmaepsilon.math) - Mathematical solutions to all kinds of problems, mainly centered around linear algebra and optimization.
+- [**sigmaepsilon.deepdict**](https://github.com/sigma-epsilon/sigmaepsilon.deepdict) - Nested deep dictionaries in Python.
 - [**sigmaepsilon.mesh**](https://github.com/sigma-epsilon/sigmaepsilon.mesh) - A module to handle polygonal meshes and visualization.
-- [**sigmaepsilon.solid**](https://github.com/sigma-epsilon/sigmaepsilon.solid)- For numerical simulations in the field of computational solid mechanics.
+- [**sigmaepsilon.solid.material**](https://github.com/sigma-epsilon/sigmaepsilon.solid.material)- Materiam models for beams shells and 3d bodies in Python.
+- [**sigmaepsilon.solid.fourier**](https://github.com/sigma-epsilon/sigmaepsilon.solid.fourier)- Numerical solutions for simpe structures.
+- [**sigmaepsilon.solid.fem**](https://github.com/sigma-epsilon/sigmaepsilon.solid.fem)- [Beta] Fast finite element calculations for solids in Python.
 
 Each of these packages comes with their own documentation, where you can find all information on installation, usage, etc.
 
