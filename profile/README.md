@@ -1,21 +1,49 @@
-# **SigmaEpsilon** - A Python ecosystem of tools for computational solid mechanics
+# **SigmaEpsilon**
+### A Python ecosystem for computational solid mechanics
 
-SigmaEpsilon is a collection of interrelated libraries to create an ecosystem of tools that make computational engineering more accessible and to provide the necessary technical background for meaningful research in the topic.
+SigmaEpsilon is an open, modular ecosystem of interrelated Python libraries designed to make **computational engineering**, **solid mechanics**, and **structural optimization** more accessible.  
+The project combines reusable software components with sound theoretical foundations, supporting both **research-grade development** and **practical engineering workflows**.
 
-## Modules
+At its core, SigmaEpsilon aims to:
+- Lower the barrier to entry for advanced computational mechanics
+- Encourage clean, reusable, and well-documented scientific code
+- Accelerate research and experimentation in solid mechanics and optimization
 
-The namespace consists of the following packages:
+---
 
-- [**sigmaepsilon.core**](https://github.com/sigma-epsilon/sigmaepsilon.core) - Common developer utilities for all projects.
-- [**sigmaepsilon.math**](https://github.com/sigma-epsilon/sigmaepsilon.math) - Mathematical solutions to all kinds of problems, mainly centered around linear algebra and optimization.
-- [**sigmaepsilon.deepdict**](https://github.com/sigma-epsilon/sigmaepsilon.deepdict) - Nested deep dictionaries in Python.
-- [**sigmaepsilon.mesh**](https://github.com/sigma-epsilon/sigmaepsilon.mesh) - A module to handle polygonal meshes and visualization.
-- [**sigmaepsilon.solid.material**](https://github.com/sigma-epsilon/sigmaepsilon.solid.material)- Materiam models for beams shells and 3d bodies in Python.
-- [**sigmaepsilon.solid.fourier**](https://github.com/sigma-epsilon/sigmaepsilon.solid.fourier)- Numerical solutions for simpe structures.
-- [**sigmaepsilon.solid.fem**](https://github.com/sigma-epsilon/sigmaepsilon.solid.fem)- [under construction] Fast finite element calculations for solids in Python.
+## 📦 Modules
 
-Each of these packages comes with their own documentation, where you can find all information on installation, usage, etc.
+The SigmaEpsilon namespace currently consists of the following packages:
 
-## Background
+- [**sigmaepsilon.core**](https://github.com/sigma-epsilon/sigmaepsilon.core)  
+  Common developer utilities and shared infrastructure across the ecosystem.
 
-The project started off as a need for organizing my code during my PhD studies, and later I (the author) decided to develop it into a system of namespace packages, to accelerate research in the field of Topology Optimization. Hence, the solutions within the modules of the SigmaEpsilon namespace are mainly centered around solid mechanics and optimization.
+- [**sigmaepsilon.math**](https://github.com/sigma-epsilon/sigmaepsilon.math)  
+  Mathematical tools with a focus on linear algebra, numerical methods, and optimization.
+
+- [**sigmaepsilon.deepdict**](https://github.com/sigma-epsilon/sigmaepsilon.deepdict)  
+  Flexible and efficient nested dictionary structures for complex data hierarchies.
+
+- [**sigmaepsilon.mesh**](https://github.com/sigma-epsilon/sigmaepsilon.mesh)  
+  Polygonal mesh handling, geometric operations, and visualization utilities.
+
+- [**sigmaepsilon.solid.material**](https://github.com/sigma-epsilon/sigmaepsilon.solid.material)  
+  Material models for beams, shells, and 3D solid continua.
+
+- [**sigmaepsilon.solid.fourier**](https://github.com/sigma-epsilon/sigmaepsilon.solid.fourier)  
+  Fourier-based numerical solutions for simplified structural models.
+
+Each package is independently versioned and documented, with detailed installation guides, examples, and API references.
+
+---
+
+## 🧠 Background & Motivation
+
+SigmaEpsilon originated as a personal effort to organize and consolidate research code during PhD studies. Over time, it evolved into a coherent **namespace-based architecture** aimed at supporting and accelerating research in **structural mechanics** and **structural topology optimization**.
+
+While the ecosystem continues to grow, its design philosophy remains consistent:
+- **Scientific correctness first**
+- **Composable, interoperable modules**
+- **Research-oriented but production-aware**
+
+As a result, most solutions within the SigmaEpsilon ecosystem focus on solid mechanics, numerical modeling, and optimization—bridging the gap between theoretical research and practical implementation.
