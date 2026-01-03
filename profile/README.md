@@ -1,5 +1,5 @@
 # **SigmaEpsilon**
-### A Python ecosystem for computational solid mechanics
+### A modular Python ecosystem for computational solid mechanics
 
 SigmaEpsilon is an open, modular ecosystem of interrelated Python libraries designed to make **computational engineering**, **solid mechanics**, and **structural optimization** more accessible.  
 The project combines reusable software components with sound theoretical foundations, supporting both **research-grade development** and **practical engineering workflows**.
